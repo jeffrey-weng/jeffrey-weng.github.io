@@ -4,10 +4,10 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/twisted_fate.jpg') {
+    if(mySrc === 'images/Twisted_Fate.jpg') {
       myImage.setAttribute ('src','images/TwistedFate_2.jpg');
     } else {
-      myImage.setAttribute ('src','images/twisted_fate.jpg');
+      myImage.setAttribute ('src','images/Twisted_Fate.jpg');
     }
 }
 var myButton = document.querySelector('button');
